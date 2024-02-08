@@ -6,7 +6,7 @@
 | Trojan:Win32/Sabsik.FL.A!ml | Stealer | Python | 
 
 ### Monikers
-  The origin of the attack seems to be a user called **leaksru**, this person doesn't seem to have mastered hacking and isn't part of any APT,
+  The origin of the attack seems to be a user called **leaksru** and seem to be French, this person doesn't seem to have mastered hacking and isn't part of any APT,
   the malware that is used is not developed by him and seem to be a public source.
 
 ### Description
