@@ -1,7 +1,12 @@
 ![Download Binary](ipfs://bafybeibq3l5mvr3ccotvnyfznl7ookmsadbkbor6t3apkvbo37rjcmwr24) | [Hashes](https://github.com/Inplex-sys/the-reverse-lab/blob/main/DataEyes.exe/HASHES)
 
+
+|Agent|Type|Language|
+----------|---------|---------|
+| Trojan:Win32/Sabsik.FL.A!ml | Stealer | Python | 
+
 ### Monikers
-  The origin of the attack seems to be a user called **leaksru** 🤡, this person doesn't seem to have mastered hacking and isn't part of any APT,
+  The origin of the attack seems to be a user called **leaksru**, this person doesn't seem to have mastered hacking and isn't part of any APT,
   the malware that is used is not developed by him and seem to be a public source.
 
 ### Description
