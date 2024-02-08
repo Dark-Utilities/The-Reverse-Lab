@@ -16,11 +16,10 @@ Upon execution, the malware likely performs the following actions:
   - Credential Theft: The malware actively monitors the user's browser, Discord, and Telegram applications for login credentials. It likely achieves this by intercepting network traffic or accessing stored credentials on the victim's system.
 
   - Communication with Telegram Bot: Once credentials are obtained, the malware communicates with a Telegram bot, likely hosted on the Telegram platform. It sends the stolen credentials to this bot for further processing or storage.
-![image](https://github.com/Inplex-sys/the-reverse-lab/assets/69421356/b8f9f2a7-ed7a-434d-93f9-4bb09bc64416)
+![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/69421356/c9ac24ab-c49e-4645-a43e-46b567b73dc2)
 
   - Encryption: The Python source file of the malware is encrypted using the AES encryption algorithm. This encryption serves to obfuscate the code and make analysis and detection more challenging for security researchers and antivirus solutions.
-![image](https://github.com/Inplex-sys/the-reverse-lab/assets/69421356/3e4ef4ca-2c5a-4070-919a-a6fd470b8a83)
-
+![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/69421356/4b480e6d-bf16-4bfe-a997-3b0e68931520)
 
   - Persistence and Autostart: The malware may implement techniques to ensure persistence on the infected system, such as adding itself to startup items or modifying system settings. This ensures that the malware continues to operate even after system reboots.
 
