@@ -12,7 +12,7 @@
 ### Description
 This malware masquerading as malware-generating software, but in reality it steal credentials from users' browsers, Discord, and Telegram accounts. It operates by utilizing a Telegram bot to exfiltrate the stolen credentials. The malware itself is crafted using the Python programming language and compiled into an executable using PyInstaller. Additionally, the Python source file is encrypted using the AES encryption algorithm, likely to evade detection by security measures.
 
-##### Note:
+#### Note:
 The malware has been filled with a high quantity of null bytes to make the file so we can't upload it on Virus Total.
 
 Upon execution, the malware likely performs the following actions:
