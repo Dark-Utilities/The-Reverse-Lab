@@ -1,4 +1,4 @@
-[Website Link](https://killbot.to/) | [Invoices Database](https://github.com/Dark-Utilities/The-Reverse-Lab/raw/main/Websites/killbot.to/data/invoices.log)
+[Website Link](https://killbot.to/) | [Invoices Database](https://github.com/Dark-Utilities/The-Reverse-Lab/raw/main/Websites/killbot.to/data/invoices.log) | [Excalidraw Schema](https://excalidraw.com/#json=79Jut7m8EwtS9lufYmpxm,Jm0mHGf9gjSVqvs4bK0buQ)
 ### Monikers
   The moniker is french (**213.56.129.110** France, Paris), he is working alone and seem to not be part of a known APT.
 
@@ -51,9 +51,3 @@ The site refers to an npm killbot.to package whose author is "~killbot.to", we l
 ![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/48413426/e2d7754d-29af-47dc-86b1-bebb1e573a87)
 <br>
 The template used by killBot.to is Volt Bootstrap.
-
-### Excalidraw
-Here is the read-only excalidraw link to get the complete diagram of the survey on killbot.to
-<br>
-[Schema](https://excalidraw.com/#json=79Jut7m8EwtS9lufYmpxm,Jm0mHGf9gjSVqvs4bK0buQ)
-
