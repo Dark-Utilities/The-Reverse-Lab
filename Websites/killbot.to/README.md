@@ -2,8 +2,18 @@
 ### Monikers
   The moniker is french (**213.56.129.110** France, Paris), he is working alone and seem to not be part of a known APT.
 
-### Investigation's result
+### Description
+Killbot.to presents itself as a service ostensibly designed to protect websites from being flagged by web browsers' security systems, particularly those that issue red page alerts for potentially malicious or harmful content. However, beneath its facade of legitimacy lies a darker truth: Killbot.to serves as a facilitator for scammers and fraudulent actors, providing them with a means to evade detection and continue their illicit activities unhindered.
 
+Operating under the guise of a legitimate service, Killbot.to employs techniques to block crawlers and bots that are commonly used by web browsers to identify and flag malicious websites. By effectively circumventing these detection mechanisms, the service enables scammers to maintain their phishing pages without triggering the warning signals that would typically deter unsuspecting users from falling victim to their schemes.
+
+Despite presenting itself as a solution for website owners seeking to enhance their online security, Killbot.to's true nature as a tool for enabling deception and fraud becomes evident upon closer examination. Rather than serving the interests of legitimate businesses or individuals, it actively aids and abets those engaged in malicious activities, thereby perpetuating harm within the online ecosystem.
+
+The deceptive practices employed by Killbot.to highlight the ongoing challenges faced in combating online fraud and cybercrime. While efforts to enhance web security and protect users from malicious threats are continually evolving, the existence of services like Killbot.to underscores the need for vigilance and skepticism when navigating the digital landscape.
+
+In conclusion, Killbot.to represents a disturbing example of how deceptive services can exploit vulnerabilities in online security systems to facilitate fraudulent activities. By masquerading as a legitimate solution while enabling malicious behavior, it undermines trust in the integrity of the online environment and underscores the importance of robust security measures and user education in combating cybercrime.
+
+### Investigation's result
 #### plisio.net gateway's transcation's database:
 Based on our investigation, we have uncovered concerning evidence linking Killbot.to to fraudulent activities. 
 Firstly, we have identified a list of invoices containing cryptocurrency addresses belonging to customers. 
@@ -30,15 +40,3 @@ Moving forward, further analysis of these IP addresses and collaboration with re
 #### Phishing pages hosting service
 In addition to the backend infrastructure described earlier, our investigation has unveiled another significant aspect of Killbot.to's operations: the utilization of an Amazon Web Services (AWS) server for hosting phishing pages. This server, configured with Plesk control panel software, represents a separate component of Killbot.to's infrastructure dedicated specifically to the deployment of deceptive and fraudulent content.
 ![18 193 70 160_explore](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/69421356/f02a1938-9970-4781-877b-78919e5d2c83)
-
-
-### Description
-Killbot.to presents itself as a service ostensibly designed to protect websites from being flagged by web browsers' security systems, particularly those that issue red page alerts for potentially malicious or harmful content. However, beneath its facade of legitimacy lies a darker truth: Killbot.to serves as a facilitator for scammers and fraudulent actors, providing them with a means to evade detection and continue their illicit activities unhindered.
-
-Operating under the guise of a legitimate service, Killbot.to employs techniques to block crawlers and bots that are commonly used by web browsers to identify and flag malicious websites. By effectively circumventing these detection mechanisms, the service enables scammers to maintain their phishing pages without triggering the warning signals that would typically deter unsuspecting users from falling victim to their schemes.
-
-Despite presenting itself as a solution for website owners seeking to enhance their online security, Killbot.to's true nature as a tool for enabling deception and fraud becomes evident upon closer examination. Rather than serving the interests of legitimate businesses or individuals, it actively aids and abets those engaged in malicious activities, thereby perpetuating harm within the online ecosystem.
-
-The deceptive practices employed by Killbot.to highlight the ongoing challenges faced in combating online fraud and cybercrime. While efforts to enhance web security and protect users from malicious threats are continually evolving, the existence of services like Killbot.to underscores the need for vigilance and skepticism when navigating the digital landscape.
-
-In conclusion, Killbot.to represents a disturbing example of how deceptive services can exploit vulnerabilities in online security systems to facilitate fraudulent activities. By masquerading as a legitimate solution while enabling malicious behavior, it undermines trust in the integrity of the online environment and underscores the importance of robust security measures and user education in combating cybercrime.
