@@ -1,4 +1,4 @@
-![Website Link](https://killbot.to/) | ![Invoices Database](https://github.com/Dark-Utilities/The-Reverse-Lab/raw/main/Websites/killbot.to/data/invoices.log)
+[Website Link](https://killbot.to/) | [Invoices Database](https://github.com/Dark-Utilities/The-Reverse-Lab/raw/main/Websites/killbot.to/data/invoices.log)
 ### Monikers
   The moniker is french (**213.56.129.110** France, Paris), he is working alone and seem to not be part of a known APT.
 
@@ -40,3 +40,20 @@ Moving forward, further analysis of these IP addresses and collaboration with re
 #### Phishing pages hosting service
 In addition to the backend infrastructure described earlier, our investigation has unveiled another significant aspect of Killbot.to's operations: the utilization of an Amazon Web Services (AWS) server for hosting phishing pages. This server, configured with Plesk control panel software, represents a separate component of Killbot.to's infrastructure dedicated specifically to the deployment of deceptive and fraudulent content.
 ![18 193 70 160_explore](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/69421356/f02a1938-9970-4781-877b-78919e5d2c83)
+
+#### Package attached to their project
+The site refers to an npm killbot.to package whose author is "~killbot.to", we learn from the source of the package on github that the github account that worked on it forked a project called "killbot.pw" which belongs to a certain "mr-giovany".
+![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/48413426/80cca5d7-9b4e-466f-a752-010dd9f0dcfa)
+
+#### Source Template Admin Panel
+![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/48413426/204b37bd-a93e-42e8-8801-eb1a101ba584)
+![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/48413426/a2731c81-67cc-44d5-be36-8283d6c8c37a)
+![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/48413426/e2d7754d-29af-47dc-86b1-bebb1e573a87)
+<br>
+The template used by killBot.to is Volt Bootstrap.
+
+### Excalidraw
+Here is the read-only excalidraw link to get the complete diagram of the survey on killbot.to
+<br>
+[Schema](https://excalidraw.com/#json=79Jut7m8EwtS9lufYmpxm,Jm0mHGf9gjSVqvs4bK0buQ)
+
