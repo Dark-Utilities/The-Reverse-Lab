@@ -1,6 +1,6 @@
 [Website Link](https://killbot.to/) | [Invoices Database](https://github.com/Dark-Utilities/The-Reverse-Lab/raw/main/Websites/killbot.to/data/invoices.log) | [Excalidraw Schema](https://excalidraw.com/#json=79Jut7m8EwtS9lufYmpxm,Jm0mHGf9gjSVqvs4bK0buQ)
 ### Monikers
-  The moniker is french (**213.56.129.110** France, Paris), he is working alone and seem to not be part of a known APT.
+  The moniker is french (**213.56.129.0/24** France, Paris), he is working alone and seem to not be part of a known APT.
 
 ### Description
 Killbot.to presents itself as a service ostensibly designed to protect websites from being flagged by web browsers' security systems, particularly those that issue red page alerts for potentially malicious or harmful content. However, beneath its facade of legitimacy lies a darker truth: Killbot.to serves as a facilitator for scammers and fraudulent actors, providing them with a means to evade detection and continue their illicit activities unhindered.
@@ -31,6 +31,8 @@ Initially, requests to Killbot.to are proxied through Cloudflare, a popular cont
 However, through thorough analysis and monitoring of network traffic, we were able to identify the actual IP addresses of the backend servers. The backend servers are hosted in two distinct locations:
   - (1) 178.208.92.111 (Russia, AS210079): This IP address serves as an intermediary between Cloudflare and the final backend server. It is registered to a hosting provider in Russia, indicating a potential physical location for part of Killbot.to's infrastructure.
   - (2) 213.56.129.110 (France, AS3215): This IP address represents the final backend server that handles requests from Cloudflare and executes the functionality of Killbot.to. It is hosted by a provider in France, suggesting another geographic location for part of the service's infrastructure.
+
+Also the backend ip seem to change but is always part of **213.56.129.0/24**
 
 The use of servers in different countries adds another layer of complexity to the investigation and may be indicative of efforts to obfuscate the true origin of Killbot.to's operations. However, our ability to uncover and trace the backend IPs demonstrates our commitment to uncovering the truth behind fraudulent activities and holding those responsible accountable for their actions.
 ![image](https://github.com/Dark-Utilities/The-Reverse-Lab/assets/69421356/e4a08797-b28f-434d-8f8b-e30ed319f40b)
